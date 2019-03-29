@@ -1,0 +1,17 @@
+TOMCAT_HOME=/workspace/tomcat
+cd /tmp/
+wget http://192.168.33.10:8080/nexus/content/repositories/releases/com/rns/simpleweb/webapp/2.1/webapp-2.1.war
+mv webapp-2.1.war /workspace/batch14/tomcat/webapps/webapp.war
+cd $TOMCAT_HOME/bin
+./startup.sh
+sleep 20
+curl http://192.168.33.10:8080/webapp
+if [ "$?" -eq "0" ]
+then
+echo "application hosted succesfully"
+else
+echo "application hosting failed"
+fi
+
+
+
