@@ -32,10 +32,8 @@ https://drive.google.com/file/d/1k2AtIN0EZXWT5ejulS-hOc3azC2hVzX7/view?usp=shari
     </distributionManagement>
 
 
+=============================================================
 
-
-
-=============================================================================================================
 #Download JDK:
 
 Download RPM file:   
