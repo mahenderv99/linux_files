@@ -6,28 +6,25 @@ https://drive.google.com/file/d/1k2AtIN0EZXWT5ejulS-hOc3azC2hVzX7/view?usp=shari
 
     <distributionManagement>
 
+     <repository>
 
-    <repository>
-
-
-     <id>deployment</id>
+      <id>deployment</id>
      
-     <name>Internal Releases</name>
+      <name>Internal Releases</name>
      
-     <url>http://192.168.1.11:8080/nexus/content/repositories/releases/</url>
+      <url>http://192.168.1.11:8080/nexus/content/repositories/releases/</url>
 
-
-    </repository>  
+     </repository>  
   
-    <snapshotRepository>
+     <snapshotRepository>
   
-    <id>deployment</id>
+      <id>deployment</id>
      
-    <name>Internal Releases</name>
+      <name>Internal Releases</name>
      
-    <url>http://192.168.1.11:8080/nexus/content/repositories/snapshots/</url>
+      <url>http://192.168.1.11:8080/nexus/content/repositories/snapshots/</url>
   
-    </snapshotRepository>
+     </snapshotRepository>
     
     </distributionManagement>
 
