@@ -55,8 +55,3 @@ wget http://mirrors.wuchna.com/apachemirror/maven/maven-3/3.6.0/binaries/apache-
    java -version
    
    which java
-<<<<<<< HEAD
-   
-# linux_files
-=======
->>>>>>> d1eaadaf8ba4728a3c63849e114b726486ef8ab9
